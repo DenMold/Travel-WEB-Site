@@ -1,0 +1,9 @@
+
+.mainPage{
+/* position: relative;
+top: 0; */
+width: 100vw;
+height: 100vh;
+background: url(../../img/Hero.jpg) no-repeat center;
+background-size: cover;
+}

@@ -1,1 +1,16 @@
-@import-normalize;
+*{
+    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1rem;
+    line-height: 24px;
+    font-style: normal;
+}
+.wraper{
+    width: 1440px;
+    height: 100vh;
+    background-color: rgb(202, 221, 215);
+    
+}

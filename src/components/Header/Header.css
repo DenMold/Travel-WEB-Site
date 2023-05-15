@@ -1,0 +1,33 @@
+.header {
+    position: fixed;
+    top: 0;
+left: 15vw;
+  width: 1060px;
+  height: 31px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 56px;
+}
+
+.header__navagation-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header__list {
+  margin-right: 82px;
+}
+.header__list:last-child {
+  margin: 0;
+}
+.header__item {
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.header__item:hover,.header__item:focus,.header__item:active {
+    opacity:0.5;
+}
