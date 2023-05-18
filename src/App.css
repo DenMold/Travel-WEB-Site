@@ -2,12 +2,18 @@
     font-family: 'Lobster', cursive;
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body{
     font-size: 1rem;
     line-height: 24px;
     font-style: normal;
     
+}
+img{
+    max-width: 100%;
+    height: auto;
 }
 .wraper{
     /* width: 1440px; */
