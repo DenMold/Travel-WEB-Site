@@ -1,0 +1,20 @@
+.benefits__wrap{
+    position: relative;
+    max-width: 1162px;
+    height: 655px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+}
+.benefit__title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 35px;
+line-height: 42px;
+color: #102746;
+padding: 94px 100px 88px 100px;
+transform: translateY(-100%);
+background-color: #ffffff;
+}
