@@ -29,3 +29,24 @@ textarea {
   font-family: inherit;
   font-size: 100%;
 }
+.link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #006dfe;
+    text-decoration: none;
+    padding-right: 59px;
+    background: url(./img/arrow-right.svg) no-repeat 90% center;
+    transition: 0.6s all;
+  }
+  .link:hover,
+  .link:focus {
+    background: url(./img/arrow-right.svg) no-repeat right center;
+  }
+  .title{
+    font-size: 35px;
+    line-height: 42px;
+    color: #102746;
+    width: 100%;
+  }
+  

@@ -1,70 +1,53 @@
-.benefits{
-    margin-bottom: 131px;
+.benefits {
+  margin-bottom: 131px;
 }
-.benefits__wrap{
-    position: relative;
-    max-width: 1162px;
-    height: 655px;
-    background-color: #ffffff;
-    margin: 0 auto;
-    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
-    z-index: 10;
+.benefits__wrap {
+  position: relative;
+  max-width: 1162px;
+  /* height: 655px; */
+  height: 100%;
+  background-color: #ffffff;
+  margin: 0 auto;
+  box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+  z-index: 10;
 }
-.benefit__title{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    font-size: 35px;
-line-height: 42px;
-color: #102746;
-padding: 94px 100px 88px 100px;
-transform: translateY(-100%);
-background-color: #ffffff;
+.benefit__title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 94px 100px 88px 100px;
+  transform: translateY(-100%);
+  background-color: #ffffff;
 }
-.benefit__cards{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 50px;
-    padding: 0 100px;
-    margin-bottom: 112px;
-}
-.benefit__card{
-    grid-column: span 1;
-}
-.benefit__card-icon{
-    max-width: 66px;
-    margin-bottom: 37px;
 
+.benefit__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
+  padding: 0 100px;
+  margin-bottom: 112px;
 }
-.benefit__card_img{
-    display: block;
+.benefit__card {
+  grid-column: span 1;
+  margin-bottom: 112px;
 }
-.benefit__card_title{
-    font-size: 18px;
-line-height: 24px;
-color: #000000;
-margin-bottom: 26px;
-
+.benefit__card-icon {
+  max-width: 66px;
+  margin-bottom: 37px;
 }
-.benefit__card_text{
-    font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #000000;
-margin-bottom: 39px;
+.benefit__card_img {
+  display: block;
 }
-.benefit__card_link{
-    font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #006DFE;
-text-decoration: none;
-padding-right: 59px;
-background: url(../../img/arrow-right.svg) no-repeat 90% center; 
-transition: 0.6s all;
-
+.benefit__card_title {
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 26px;
 }
-.benefit__card_link:hover, .benefit__card_link:focus{
-    background: url(../../img/arrow-right.svg) no-repeat right center; 
+.benefit__card_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 39px;
 }

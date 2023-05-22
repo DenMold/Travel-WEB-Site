@@ -2,6 +2,7 @@
 import Header from "./components/Header/Header";
 import MainPage from "./components/MainPage/MainPage";
 import Benefits from "./components/Benefits/Benefits";
+import Places from "./components/Places/Places";
 
 import "./App.css";
 
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <MainPage />
       <Benefits />
+      <Places />
       <h1>About</h1>
     </div>
   );

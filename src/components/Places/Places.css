@@ -1,0 +1,89 @@
+.places{
+    max-width: 1162px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+.places__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     margin-bottom: 36px;
+}
+.placees__view-all{
+    white-space: nowrap;
+}
+.places__cards{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 
+    'a a a b b b'
+    'c c d d e e';
+}
+.places__card{
+    position: relative;
+    overflow: hidden;
+
+}
+.places__card::after{
+position: absolute;
+top: 0;
+left: 0;
+display: block;
+width: 100%;
+height: 100%;
+content: '';
+background: rgba(21, 24, 36, 0.4);
+z-index: 10;
+}
+.places__card:hover .places__card_img-h {
+    transform: scale(1.1);
+}
+.places__card:hover .places__card_img{
+    transform: scale(1.1);
+}
+.places__card_img-h {
+    /* height: 354px; */
+    height: 100%;
+    object-fit: cover;
+    transition: .25s all;
+}
+.places__card_img{
+    height: 100%;
+    transition: .25s all;
+}
+.places__one{
+    grid-area: a;
+    height: 354px;
+}
+.places__two{
+    grid-area: b;
+    height: 354px;
+}
+.places__three{
+    grid-area: c;
+}
+.places__four{
+    grid-area: d;
+}
+.places__five{
+    grid-area: e;
+}
+.places__card_title{
+    font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+color: #FFFFFF;
+position: absolute;
+left: 29px;
+bottom: 27px;
+z-index: 15;
+}
+.places__card_link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 16;
+}

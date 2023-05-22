@@ -5,10 +5,12 @@ top: 0; */
   min-height: 100vh;
   background: url(../../img/Hero.jpg) no-repeat center;
   background-size: cover;
+  padding-bottom: 280px;
 }
 .mainPage__wrapper {
   margin-left: 191px;
   padding-top: 236px;
+
 }
 .mainPage__title {
   display: block;
@@ -25,6 +27,7 @@ top: 0; */
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
+  margin-bottom: 60px;
 }
 .mainPage__form__info {
   display: flex;

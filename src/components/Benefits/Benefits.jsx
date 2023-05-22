@@ -7,7 +7,7 @@ const Benefits = () => {
   return (
     <div className="benefits">
       <div className="benefits__wrap">
-        <h2 className="benefit__title">Benefits of Odigo</h2>
+        <h2 className="benefit__title title">Benefits of Odigo</h2>
         <div className="benefit__cards">
           <div className="benefit__card">
             <div className="benefit__card-icon">
@@ -18,7 +18,7 @@ const Benefits = () => {
                 Jump off balcony, onto stranger's head. Chase ball of string
                 hide when guests come over.
               </p>
-              <a href="#" className="benefit__card_link">
+              <a href="#" className="benefit__card_link link">
                 LEARN MORE
               </a>
             
@@ -32,7 +32,7 @@ const Benefits = () => {
                 Jump off balcony, onto stranger's head. Chase ball of string
                 hide when guests come over.
               </p>
-              <a href="#" className="benefit__card_link">
+              <a href="#" className="benefit__card_link link">
                 LEARN MORE
               </a>
            
@@ -46,7 +46,7 @@ const Benefits = () => {
               Jump off balcony, onto stranger's head. Chase ball of string hide
               when guests come over.
             </p>
-            <a href="#" className="benefit__card_link">
+            <a href="#" className="benefit__card_link link">
               LEARN MORE
             </a>
           </div>
